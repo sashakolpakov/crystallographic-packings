@@ -1,0 +1,1004 @@
+julia> 
+
+Starting Vinberg algorithm for no. 1
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 2 1; 0 0 1 2]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 2, -1]
+Remaining roots 
+nf_elem[1, 0, 0, 1]
+Number of roots: 4
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 2, -1], [1, 0, 0, 1]]
+
+Does *not* have an isolated root (bad) 
+Starting Vinberg algorithm for no. 2
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 2 0; 0 0 0 2]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 1, -1]
+Remaining roots 
+nf_elem[1, 0, 0, 1]
+Number of roots: 4
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 1, -1], [1, 0, 0, 1]]
+
+Does *not* have an isolated root (bad) 
+Starting Vinberg algorithm for no. 3
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 2 1; 0 0 1 4]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 1, -2]
+Remaining roots 
+nf_elem[1, 0, 1, 0]
+nf_elem[1, -1, 0, 1]
+nf_elem[7, 0, -1, 2]
+Number of roots: 6
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 1, -2], [1, 0, 1, 0], [1, -1, 0, 1], [7, 0, -1, 2]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 4
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 2 0; 0 0 0 4]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 0, -1]
+Remaining roots 
+nf_elem[1, 0, 1, 0]
+nf_elem[2, 0, 0, 1]
+Number of roots: 5
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1], [1, 0, 1, 0], [2, 0, 0, 1]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 5
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 4 2; 0 0 2 4]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 2, -1]
+Remaining roots 
+nf_elem[2, 0, 0, 1]
+Number of roots: 4
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 2, -1], [2, 0, 0, 1]]
+
+Does *not* have an isolated root (bad) 
+Starting Vinberg algorithm for no. 6
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 4 1; 0 0 1 4]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, -1]
+ [0, 0, 1, -1]
+Remaining roots 
+nf_elem[3, 0, -1, 1]
+nf_elem[1, -1, 0, 1]
+nf_elem[5, 0, 1, 1]
+Number of roots: 6
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, -1], [0, 0, 1, -1], [3, 0, -1, 1], [1, -1, 0, 1], [5, 0, 1, 1]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 7
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 4 2; 0 0 2 6]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 1, -2]
+Remaining roots 
+nf_elem[2, 0, 1, 0]
+nf_elem[2, -1, 0, 1]
+nf_elem[10, 0, -1, 2]
+Number of roots: 6
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 1, -2], [2, 0, 1, 0], [2, -1, 0, 1], [10, 0, -1, 2]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 8
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 6 0; 0 0 0 6]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 1, -1]
+Remaining roots 
+nf_elem[3, 0, 0, 1]
+nf_elem[2, -2, 1, 1]
+Number of roots: 5
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 1, -1], [3, 0, 0, 1], [2, -2, 1, 1]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 9
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 2 1; 0 0 1 6]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 1, -2]
+Remaining roots 
+nf_elem[1, 0, 1, 0]
+nf_elem[2, -1, 0, 1]
+nf_elem[11, 0, -1, 2]
+Number of roots: 6
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 1, -2], [1, 0, 1, 0], [2, -1, 0, 1], [11, 0, -1, 2]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 10
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 2 1; 0 0 1 8]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 1, -2]
+Remaining roots 
+nf_elem[1, 0, 1, 0]
+nf_elem[15, 0, -1, 2]
+nf_elem[3, -1, 0, 1]
+nf_elem[15, -15, 4, 7]
+nf_elem[15, -15, -4, 8]
+Number of roots: 8
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 1, -2], [1, 0, 1, 0], [15, 0, -1, 2], [3, -1, 0, 1], [15, -15, 4, 7], [15, -15, -4, 8]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 11
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 2 1; 0 0 1 10]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 1, -2]
+Remaining roots 
+nf_elem[1, 0, 1, 0]
+nf_elem[2, -2, 0, 1]
+nf_elem[19, 0, -1, 2]
+nf_elem[4, -1, 0, 1]
+Number of roots: 7
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 1, -2], [1, 0, 1, 0], [2, -2, 0, 1], [19, 0, -1, 2], [4, -1, 0, 1]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 12
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 2 0; 0 0 0 10]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 0, -1]
+Remaining roots 
+nf_elem[1, 0, 1, 0]
+nf_elem[5, 0, 0, 1]
+nf_elem[2, -2, 1, 1]
+Number of roots: 6
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1], [1, 0, 1, 0], [5, 0, 0, 1], [2, -2, 1, 1]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 13
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 2 0; 0 0 0 12]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 0, -1]
+Remaining roots 
+nf_elem[1, 0, 1, 0]
+nf_elem[6, 0, 0, 1]
+nf_elem[2, -2, 0, 1]
+Number of roots: 6
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1], [1, 0, 1, 0], [6, 0, 0, 1], [2, -2, 0, 1]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 14
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 4 0; 0 0 0 6]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 0, -1]
+Remaining roots 
+nf_elem[2, 0, 1, 0]
+nf_elem[3, 0, 0, 1]
+nf_elem[2, -2, 1, 1]
+Number of roots: 6
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1], [2, 0, 1, 0], [3, 0, 0, 1], [2, -2, 1, 1]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 15
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 6 1; 0 0 1 6]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, -1]
+ [0, 0, 1, -1]
+Remaining roots 
+nf_elem[5, 0, -1, 1]
+nf_elem[7, 0, 1, 1]
+nf_elem[2, -1, 0, 1]
+nf_elem[2, -2, -1, 1]
+nf_elem[3, -2, 1, 1]
+Number of roots: 8
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, -1], [0, 0, 1, -1], [5, 0, -1, 1], [7, 0, 1, 1], [2, -1, 0, 1], [2, -2, -1, 1], [3, -2, 1, 1]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 16
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 2 1; 0 0 1 20]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 1, -2]
+Remaining roots 
+nf_elem[1, 0, 1, 0]
+nf_elem[3, -3, 1, 1]
+nf_elem[39, 0, -1, 2]
+nf_elem[12, -3, -1, 2]
+nf_elem[9, -1, 0, 1]
+nf_elem[26, -13, -3, 6]
+nf_elem[39, -13, 3, 7]
+Number of roots: 10
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 1, -2], [1, 0, 1, 0], [3, -3, 1, 1], [39, 0, -1, 2], [12, -3, -1, 2], [9, -1, 0, 1], [26, -13, -3, 6], [39, -13, 3, 7]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 17
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 2 0; 0 0 0 20]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 0, -1]
+Remaining roots 
+nf_elem[1, 0, 1, 0]
+nf_elem[10, 0, 0, 1]
+nf_elem[4, -2, 0, 1]
+nf_elem[8, -6, 3, 2]
+nf_elem[30, -30, 10, 9]
+nf_elem[40, -40, 20, 11]
+Number of roots: 9
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1], [1, 0, 1, 0], [10, 0, 0, 1], [4, -2, 0, 1], [8, -6, 3, 2], [30, -30, 10, 9], [40, -40, 20, 11]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 18
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 4 0; 0 0 0 10]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 0, -1]
+Remaining roots 
+nf_elem[2, 0, 1, 0]
+nf_elem[5, 0, 0, 1]
+nf_elem[2, -2, 0, 1]
+nf_elem[3, -2, 1, 1]
+Number of roots: 7
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1], [2, 0, 1, 0], [5, 0, 0, 1], [2, -2, 0, 1], [3, -2, 1, 1]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 19
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 4 2; 0 0 2 12]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 1, -2]
+Remaining roots 
+nf_elem[2, 0, 1, 0]
+nf_elem[2, -2, 0, 1]
+nf_elem[22, 0, -1, 2]
+nf_elem[5, -1, 0, 1]
+Number of roots: 7
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 1, -2], [2, 0, 1, 0], [2, -2, 0, 1], [22, 0, -1, 2], [5, -1, 0, 1]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 20
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 2 0; 0 0 0 26]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 0, -1]
+Remaining roots 
+nf_elem[1, 0, 1, 0]
+nf_elem[13, 0, 0, 1]
+nf_elem[6, -2, 1, 1]
+nf_elem[4, -3, 0, 1]
+nf_elem[4, -4, 2, 1]
+nf_elem[52, -39, 13, 12]
+nf_elem[52, -52, 13, 14]
+Number of roots: 10
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1], [1, 0, 1, 0], [13, 0, 0, 1], [6, -2, 1, 1], [4, -3, 0, 1], [4, -4, 2, 1], [52, -39, 13, 12], [52, -52, 13, 14]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 21
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 2 0; 0 0 0 28]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 0, -1]
+Remaining roots 
+nf_elem[1, 0, 1, 0]
+nf_elem[14, 0, 0, 1]
+nf_elem[7, -7, 0, 2]
+nf_elem[4, -4, 2, 1]
+nf_elem[6, -2, 0, 1]
+nf_elem[28, -14, 7, 5]
+Number of roots: 9
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1], [1, 0, 1, 0], [14, 0, 0, 1], [7, -7, 0, 2], [4, -4, 2, 1], [6, -2, 0, 1], [28, -14, 7, 5]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 22
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 6 3; 0 0 3 12]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 1, -2]
+Remaining roots 
+nf_elem[3, 0, 1, 0]
+nf_elem[3, -3, 1, 1]
+nf_elem[21, 0, -1, 2]
+nf_elem[6, -3, -1, 2]
+nf_elem[5, -1, 0, 1]
+nf_elem[21, -21, -1, 9]
+nf_elem[42, -21, 1, 12]
+Number of roots: 10
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 1, -2], [3, 0, 1, 0], [3, -3, 1, 1], [21, 0, -1, 2], [6, -3, -1, 2], [5, -1, 0, 1], [21, -21, -1, 9], [42, -21, 1, 12]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 23
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 2 0; 0 0 0 34]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 0, -1]
+Remaining roots 
+nf_elem[1, 0, 1, 0]
+nf_elem[17, 0, 0, 1]
+nf_elem[4, -4, 1, 1]
+nf_elem[8, -2, 1, 1]
+nf_elem[68, -34, 17, 11]
+nf_elem[17, -9, 1, 3]
+nf_elem[19, -8, 0, 3]
+nf_elem[85, -51, 0, 16]
+nf_elem[136, -68, 17, 23]
+nf_elem[204, -102, 0, 35]
+Number of roots: 13
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1], [1, 0, 1, 0], [17, 0, 0, 1], [4, -4, 1, 1], [8, -2, 1, 1], [68, -34, 17, 11], [17, -9, 1, 3], [19, -8, 0, 3], [85, -51, 0, 16], [136, -68, 17, 23], [204, -102, 0, 35]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 24
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 10 5; 0 0 5 10]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 2, -1]
+Remaining roots 
+nf_elem[5, 0, 0, 1]
+nf_elem[2, -2, 0, 1]
+nf_elem[15, -15, -4, 8]
+Number of roots: 6
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 2, -1], [5, 0, 0, 1], [2, -2, 0, 1], [15, -15, -4, 8]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 25
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 2 0; 0 0 0 42]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 0, -1]
+Remaining roots 
+nf_elem[1, 0, 1, 0]
+nf_elem[21, 0, 0, 1]
+nf_elem[6, -3, 0, 1]
+nf_elem[10, -2, 1, 1]
+nf_elem[6, -4, 2, 1]
+nf_elem[42, -42, 21, 8]
+nf_elem[14, -14, 3, 3]
+nf_elem[63, -63, 21, 13]
+Number of roots: 11
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1], [1, 0, 1, 0], [21, 0, 0, 1], [6, -3, 0, 1], [10, -2, 1, 1], [6, -4, 2, 1], [42, -42, 21, 8], [14, -14, 3, 3], [63, -63, 21, 13]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 26
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 6 0; 0 0 0 14]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 0, -1]
+Remaining roots 
+nf_elem[3, 0, 1, 0]
+nf_elem[7, 0, 0, 1]
+nf_elem[4, -2, 1, 1]
+nf_elem[3, -2, 0, 1]
+nf_elem[14, -14, 7, 3]
+Number of roots: 8
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1], [3, 0, 1, 0], [7, 0, 0, 1], [4, -2, 1, 1], [3, -2, 0, 1], [14, -14, 7, 3]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 27
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 10 4; 0 0 4 10]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, -1]
+ [0, 0, 1, -1]
+Remaining roots 
+nf_elem[6, 0, -1, 1]
+nf_elem[2, -2, -1, 1]
+nf_elem[14, 0, 1, 1]
+nf_elem[2, -2, 0, 1]
+nf_elem[4, -1, 0, 1]
+nf_elem[7, -7, 2, 2]
+nf_elem[6, -2, 1, 1]
+nf_elem[14, -7, -2, 5]
+Number of roots: 11
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, -1], [0, 0, 1, -1], [6, 0, -1, 1], [2, -2, -1, 1], [14, 0, 1, 1], [2, -2, 0, 1], [4, -1, 0, 1], [7, -7, 2, 2], [6, -2, 1, 1], [14, -7, -2, 5]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 28
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 2 0; 0 0 0 60]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 0, -1]
+Remaining roots 
+nf_elem[1, 0, 1, 0]
+nf_elem[5, -5, 0, 1]
+nf_elem[30, 0, 0, 1]
+nf_elem[6, -6, 3, 1]
+nf_elem[9, -3, 0, 1]
+nf_elem[8, -4, 2, 1]
+nf_elem[14, -2, 0, 1]
+nf_elem[50, -10, 5, 4]
+Number of roots: 11
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1], [1, 0, 1, 0], [5, -5, 0, 1], [30, 0, 0, 1], [6, -6, 3, 1], [9, -3, 0, 1], [8, -4, 2, 1], [14, -2, 0, 1], [50, -10, 5, 4]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 29
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 4 0; 0 0 0 30]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 0, -1]
+Remaining roots 
+nf_elem[2, 0, 1, 0]
+nf_elem[15, 0, 0, 1]
+nf_elem[10, -10, 5, 2]
+nf_elem[12, -6, 3, 2]
+nf_elem[15, -15, 0, 4]
+nf_elem[4, -4, 1, 1]
+nf_elem[7, -2, 0, 1]
+nf_elem[8, -2, 1, 1]
+nf_elem[10, -6, 1, 2]
+nf_elem[50, -20, 5, 8]
+nf_elem[60, -30, 0, 11]
+Number of roots: 14
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1], [2, 0, 1, 0], [15, 0, 0, 1], [10, -10, 5, 2], [12, -6, 3, 2], [15, -15, 0, 4], [4, -4, 1, 1], [7, -2, 0, 1], [8, -2, 1, 1], [10, -6, 1, 2], [50, -20, 5, 8], [60, -30, 0, 11]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 30
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 6 0; 0 0 0 20]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 0, -1]
+Remaining roots 
+nf_elem[3, 0, 1, 0]
+nf_elem[10, 0, 0, 1]
+nf_elem[4, -2, 0, 1]
+nf_elem[4, -3, 1, 1]
+nf_elem[6, -2, 1, 1]
+nf_elem[6, -6, 3, 1]
+nf_elem[14, -14, 6, 3]
+nf_elem[50, -40, 20, 9]
+nf_elem[30, -24, 11, 6]
+nf_elem[60, -40, 20, 11]
+Number of roots: 13
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1], [3, 0, 1, 0], [10, 0, 0, 1], [4, -2, 0, 1], [4, -3, 1, 1], [6, -2, 1, 1], [6, -6, 3, 1], [14, -14, 6, 3], [50, -40, 20, 9], [30, -24, 11, 6], [60, -40, 20, 11]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 31
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 10 0; 0 0 0 12]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 0, -1]
+Remaining roots 
+nf_elem[5, 0, 1, 0]
+nf_elem[6, 0, 0, 1]
+nf_elem[2, -2, 0, 1]
+nf_elem[2, -2, 1, 0]
+nf_elem[5, -2, 1, 1]
+nf_elem[6, -4, 2, 1]
+nf_elem[15, -15, 4, 5]
+nf_elem[18, -18, 6, 5]
+nf_elem[14, -10, 3, 4]
+nf_elem[40, -30, 11, 10]
+nf_elem[48, -36, 12, 13]
+Number of roots: 14
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1], [5, 0, 1, 0], [6, 0, 0, 1], [2, -2, 0, 1], [2, -2, 1, 0], [5, -2, 1, 1], [6, -4, 2, 1], [15, -15, 4, 5], [18, -18, 6, 5], [14, -10, 3, 4], [40, -30, 11, 10], [48, -36, 12, 13]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 32
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 2 0; 0 0 0 66]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 0, -1]
+Remaining roots 
+nf_elem[1, 0, 1, 0]
+nf_elem[6, -6, 3, 1]
+nf_elem[33, 0, 0, 1]
+nf_elem[11, -11, 0, 2]
+nf_elem[8, -4, 1, 1]
+nf_elem[16, -2, 1, 1]
+nf_elem[11, -3, 1, 1]
+nf_elem[99, -33, 0, 10]
+nf_elem[121, -22, 0, 9]
+nf_elem[90, -18, 3, 7]
+nf_elem[37, -8, 0, 3]
+nf_elem[264, -66, 0, 23]
+Number of roots: 15
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1], [1, 0, 1, 0], [6, -6, 3, 1], [33, 0, 0, 1], [11, -11, 0, 2], [8, -4, 1, 1], [16, -2, 1, 1], [11, -3, 1, 1], [99, -33, 0, 10], [121, -22, 0, 9], [90, -18, 3, 7], [37, -8, 0, 3], [264, -66, 0, 23]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 33
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 12 2; 0 0 2 12]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, -1]
+ [0, 0, 1, -1]
+Remaining roots 
+nf_elem[2, -2, 0, 1]
+nf_elem[10, 0, -1, 1]
+nf_elem[14, 0, 1, 1]
+nf_elem[4, -2, -1, 1]
+nf_elem[7, -7, 2, 2]
+nf_elem[6, -2, 1, 1]
+nf_elem[5, -1, 0, 1]
+nf_elem[21, -7, -2, 5]
+Number of roots: 11
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, -1], [0, 0, 1, -1], [2, -2, 0, 1], [10, 0, -1, 1], [14, 0, 1, 1], [4, -2, -1, 1], [7, -7, 2, 2], [6, -2, 1, 1], [5, -1, 0, 1], [21, -7, -2, 5]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 34
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 6 0; 0 0 0 28]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 0, -1]
+Remaining roots 
+nf_elem[3, 0, 1, 0]
+nf_elem[14, 0, 0, 1]
+nf_elem[7, -7, 0, 2]
+nf_elem[6, -2, 0, 1]
+nf_elem[6, -4, 2, 1]
+nf_elem[4, -4, 1, 1]
+nf_elem[8, -2, 1, 1]
+nf_elem[14, -14, 7, 2]
+nf_elem[15, -9, 2, 3]
+nf_elem[35, -14, 7, 5]
+nf_elem[19, -8, 3, 3]
+nf_elem[70, -42, 14, 13]
+nf_elem[36, -18, 7, 6]
+nf_elem[168, -84, 28, 29]
+nf_elem[154, -70, 21, 26]
+Number of roots: 18
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1], [3, 0, 1, 0], [14, 0, 0, 1], [7, -7, 0, 2], [6, -2, 0, 1], [6, -4, 2, 1], [4, -4, 1, 1], [8, -2, 1, 1], [14, -14, 7, 2], [15, -9, 2, 3], [35, -14, 7, 5], [19, -8, 3, 3], [70, -42, 14, 13], [36, -18, 7, 6], [168, -84, 28, 29], [154, -70, 21, 26]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 35
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 12 0; 0 0 0 14]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 0, -1]
+Remaining roots 
+nf_elem[6, 0, 1, 0]
+nf_elem[7, 0, 0, 1]
+nf_elem[2, -2, 1, 0]
+nf_elem[3, -2, 0, 1]
+nf_elem[4, -3, 1, 1]
+nf_elem[6, -2, 1, 1]
+nf_elem[8, -4, 1, 2]
+nf_elem[28, -14, 7, 4]
+nf_elem[42, -35, 7, 13]
+nf_elem[36, -36, 7, 12]
+nf_elem[22, -18, 3, 7]
+nf_elem[34, -34, 5, 12]
+nf_elem[72, -66, 11, 24]
+nf_elem[84, -84, 14, 29]
+nf_elem[154, -140, 21, 52]
+Number of roots: 18
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1], [6, 0, 1, 0], [7, 0, 0, 1], [2, -2, 1, 0], [3, -2, 0, 1], [4, -3, 1, 1], [6, -2, 1, 1], [8, -4, 1, 2], [28, -14, 7, 4], [42, -35, 7, 13], [36, -36, 7, 12], [22, -18, 3, 7], [34, -34, 5, 12], [72, -66, 11, 24], [84, -84, 14, 29], [154, -140, 21, 52]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 36
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 14 0; 0 0 0 14]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 1, -1]
+Remaining roots 
+nf_elem[7, 0, 0, 1]
+nf_elem[3, -2, 0, 1]
+nf_elem[7, -7, 2, 2]
+nf_elem[6, -2, 1, 1]
+nf_elem[14, -14, 2, 5]
+nf_elem[28, -14, 3, 7]
+Number of roots: 9
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 1, -1], [7, 0, 0, 1], [3, -2, 0, 1], [7, -7, 2, 2], [6, -2, 1, 1], [14, -14, 2, 5], [28, -14, 3, 7]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 37
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 10 0; 0 0 0 20]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 0, -1]
+Remaining roots 
+nf_elem[5, 0, 1, 0]
+nf_elem[10, 0, 0, 1]
+nf_elem[2, -2, 1, 0]
+nf_elem[4, -2, 0, 1]
+nf_elem[5, -5, 2, 1]
+nf_elem[10, -10, 2, 3]
+nf_elem[7, -2, 1, 1]
+nf_elem[20, -10, 3, 4]
+nf_elem[40, -20, 8, 7]
+nf_elem[14, -6, 3, 2]
+Number of roots: 13
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1], [5, 0, 1, 0], [10, 0, 0, 1], [2, -2, 1, 0], [4, -2, 0, 1], [5, -5, 2, 1], [10, -10, 2, 3], [7, -2, 1, 1], [20, -10, 3, 4], [40, -20, 8, 7], [14, -6, 3, 2]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 38
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 20 10; 0 0 10 20]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 2, -1]
+Remaining roots 
+nf_elem[10, 0, 0, 1]
+nf_elem[4, -2, 0, 1]
+nf_elem[5, -5, -1, 2]
+nf_elem[9, -3, -1, 2]
+Number of roots: 7
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 2, -1], [10, 0, 0, 1], [4, -2, 0, 1], [5, -5, -1, 2], [9, -3, -1, 2]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 39
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 6 0; 0 0 0 60]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 0, -1]
+Remaining roots 
+nf_elem[3, 0, 1, 0]
+nf_elem[5, -5, 0, 1]
+nf_elem[6, -6, 2, 1]
+nf_elem[30, 0, 0, 1]
+nf_elem[9, -3, 0, 1]
+nf_elem[10, -10, 5, 1]
+nf_elem[10, -4, 2, 1]
+nf_elem[14, -2, 0, 1]
+nf_elem[8, -4, 1, 1]
+nf_elem[24, -6, 3, 2]
+nf_elem[16, -2, 1, 1]
+nf_elem[90, -30, 10, 9]
+nf_elem[55, -10, 5, 4]
+nf_elem[66, -12, 4, 5]
+nf_elem[37, -8, 3, 3]
+nf_elem[240, -60, 20, 21]
+nf_elem[230, -50, 15, 19]
+Number of roots: 20
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1], [3, 0, 1, 0], [5, -5, 0, 1], [6, -6, 2, 1], [30, 0, 0, 1], [9, -3, 0, 1], [10, -10, 5, 1], [10, -4, 2, 1], [14, -2, 0, 1], [8, -4, 1, 1], [24, -6, 3, 2], [16, -2, 1, 1], [90, -30, 10, 9], [55, -10, 5, 4], [66, -12, 4, 5], [37, -8, 3, 3], [240, -60, 20, 21], [230, -50, 15, 19]]
+
+Has an isolated root (good) 
+Starting Vinberg algorithm for no. 40
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 12 0; 0 0 0 30]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 0, -1]
+Remaining roots 
+nf_elem[6, 0, 1, 0]
+nf_elem[2, -2, 1, 0]
+nf_elem[15, 0, 0, 1]
+nf_elem[6, -3, 1, 1]
+nf_elem[6, -6, 2, 1]
+nf_elem[15, -15, 0, 4]
+nf_elem[7, -2, 0, 1]
+nf_elem[20, -10, 5, 2]
+nf_elem[8, -8, 1, 2]
+nf_elem[10, -2, 1, 1]
+nf_elem[16, -4, 1, 2]
+nf_elem[30, -18, 1, 6]
+nf_elem[60, -30, 0, 11]
+nf_elem[14, -10, 1, 3]
+nf_elem[42, -18, 2, 7]
+nf_elem[34, -16, 1, 6]
+nf_elem[100, -50, 5, 18]
+Number of roots: 20
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1], [6, 0, 1, 0], [2, -2, 1, 0], [15, 0, 0, 1], [6, -3, 1, 1], [6, -6, 2, 1], [15, -15, 0, 4], [7, -2, 0, 1], [20, -10, 5, 2], [8, -8, 1, 2], [10, -2, 1, 1], [16, -4, 1, 2], [30, -18, 1, 6], [60, -30, 0, 11], [14, -10, 1, 3], [42, -18, 2, 7], [34, -16, 1, 6], [100, -50, 5, 18]]
+
+Has an isolated root (good) 
+
+Commensurable good lattices for bad lattices ... 
+
+Starting Vinberg algorithm for no. 1 commensurable 
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 2 2; 0 0 2 8]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 1, -1]
+Remaining roots 
+nf_elem[1, 0, 1, 0]
+nf_elem[3, 0, -1, 1]
+Number of roots: 5
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 1, -1], [1, 0, 1, 0], [3, 0, -1, 1]]
+
+Starting Vinberg algorithm for no. 2 commensurable 
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 2 0; 0 0 0 8]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 0, -1]
+Remaining roots 
+nf_elem[1, 0, 1, 0]
+nf_elem[4, 0, 0, 1]
+nf_elem[2, -2, 1, 1]
+Number of roots: 6
+All roots found: 
+[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1], [1, 0, 1, 0], [4, 0, 0, 1], [2, -2, 1, 1]]
+
+Starting Vinberg algorithm for no. 5 commensurable 
+Gram matrix 
+[0 1 0 0; 1 0 0 0; 0 0 4 4; 0 0 4 16]
+Basepoint 
+nf_elem[1, -1, 0, 0]
+Roots 
+Cone roots 
+3-element Vector{Vector{nf_elem}}:
+ [-1, -1, 0, 0]
+ [0, 0, -1, 0]
+ [0, 0, 1, -1]
+Remaining roots 
+nf_elem[2, 0, 1, 0]
+nf_elem[6, 0, -1, 1]
+nf_elem[2, -2, -1, 1]
+nf_elem[6, -6, 1, 2]
+Number of roots: 7
+All roots found: 
+Vector{nf_elem}[[-1, -1, 0, 0], [0, 0, -1, 0], [0, 0, 1, -1], [2, 0, 1, 0], [6, 0, -1, 1], [2, -2, -1, 1], [6, -6, 1, 2]]
+
+julia> 
